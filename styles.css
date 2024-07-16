@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(36, 36, 61);
+}
+
+h1{
+    color:#ccc;
+    text-align: center;
+    font-size: 60px;
+}
+
+.setup {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#gameBoard {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 10px;
+    width: 320px;
+    margin: 0 auto;
+}
+
+.cell {
+    background-color: #ccc;
+    height: 100px;
+    display: flex;
+    border-radius: 7px;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+#gameStatus {
+    text-align: center;
+    margin-top: 20px;
+    color:rgb(27, 202, 30);
+    font-size: 16px;
+}
+
+#gameHistory {
+    margin-top: 20px;
+    text-align: center;
+    color:rgb(237, 9, 17);
+}
+
+#historyList {
+    list-style-type: none;
+    padding: 0;
+    color: rgb(162, 248, 163);
+}
+
+.id-1{
+    color: #ccc;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.text-box{
+    height:auto;
+    border:none;
+
+}
+.button-start{
+    width:100px;
+}
+h2{
+    color: #ccc;
+    font-size: 20px;
+}
+.reset-button{
+    height:30px;
+    width:100px;
+    margin-left: 710px;
+    border: none;
+    background-color: rgb(145, 96, 23);
+    color:#ccc;
+}

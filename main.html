@@ -1,0 +1,43 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Tic-Tac-Toe</h1>
+    <div class="setup">
+        <label for="player1" class="id-1">Player 1 Name:</label>
+        <input type="text" class="text-box" id="player1" placeholder="Enter Player 1's Name">
+        <label for="player2" class="id-1">Player 2 Name:</label>
+        <input type="text" id="player2" class="text-box" placeholder="Enter Player 2's Name">
+        <button  class="button-start" id="startButton" onclick="startGame()">Start Game</button>
+    </div>
+    
+    <div id="gameBoard" class="game-board">
+        <div id="cell-0" class="cell"></div>
+        <div id="cell-1" class="cell"></div>
+        <div id="cell-2" class="cell"></div>
+        <div id="cell-3" class="cell"></div>
+        <div id="cell-4" class="cell"></div>
+        <div id="cell-5" class="cell"></div>
+        <div id="cell-6" class="cell"></div>
+        <div id="cell-7" class="cell"></div>
+        <div id="cell-8" class="cell"></div>
+    </div>
+
+    <div id="gameStatus">
+        <p id="currentPlayer"></p>
+        <p id="gameResult"></p>
+    </div>
+    <button  class="reset-button"id="reset-button" onclick="resetGame()">Reset Game</button>
+    <div id="gameHistory">
+        <h2>Game History</h2>
+        <ul id="historyList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
